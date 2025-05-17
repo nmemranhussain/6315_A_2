@@ -49,5 +49,5 @@ This project explores Capital Bikeshare data (Feb–Apr 2024) by mapping station
 - **Data Source:** [capitalbikeshare-data](https://s3.amazonaws.com/capitalbikeshare-data/index.html)
 - **How training data was divided into training and test data**: The project does not split data into training and testing sets.
 - **Type of model**: K-means, K-medians and K-mediods
-- **Software used to implement the model**: Python, scikit-learn
-- **Version of the modeling software**: numpy: 2.0.2, pandas: 2.2.2, scikit-learn: 1.6.1, matplotlib: 3.10.0, seaborn: 0.13.2, Python 3.11.12
+- **Software used to implement the model**: Python, scikit-learn, pyclustering, scipy
+- **Version of the modeling software**: numpy: 2.0.2, pandas: 2.2.2, matplotlib: 3.10.0, Python 3.11.12, scikit-learn version: 1.5.1, pyclustering version: 0.10.1.2, scipy version: 1.13.1
