@@ -57,5 +57,25 @@ In this project, the within-cluster sum of squares (WSS), also known as inertia,
 
 ### Quantitative Analysis
 
-![WSS](6315_A_2_1.jpg)  
+![Original Location](6315_A_2_1.jpg)  
 Figure 1. All location of bikeshare station origin
+
+![Optimal K](6315_A_2_2.jpg)  
+Figure 1. Finiding optimal K using WSS elbow method
+
+![K-means clustering](6315_A_2_3.jpg)  
+Figure 1. K-means clustering of bike docking station using K=10
+
+![K-medians clustering](6315_A_2_4.jpg)  
+Figure 1. K-medians clustering of bike docking station using K=10 and Manhatten Distance
+
+![K-medoids clustering](6315_A_2_5.jpg)  
+Figure 1. K-medoids clustering of bike docking station using K=10 
+
+![hirarchical clustering](6315_A_2_6.jpg)  
+Figure 1. Hierarchical clustering dendogram
+
+![Hierarchical clustering](6315_A_2_7.jpg)  
+Figure 1. Hierarchical Clustering Using K=10
+
+
