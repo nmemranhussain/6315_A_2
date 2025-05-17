@@ -51,3 +51,11 @@ This project explores Capital Bikeshare data (Feb–Apr 2024) by mapping station
 - **Type of model**: K-means, K-medians and K-mediods
 - **Software used to implement the model**: Python, scikit-learn, pyclustering, scipy
 - **Version of the modeling software**: numpy: 2.0.2, pandas: 2.2.2, matplotlib: 3.10.0, Python 3.11.12, scikit-learn version: 1.5.1, pyclustering version: 0.10.1.2, scipy version: 1.13.1
+
+### Evaluation Metrics
+In this project, the within-cluster sum of squares (WSS), also known as inertia, is used to evaluate how compact the clusters formed by the KMeans algorithm are. WSS measures the total squared distance between each data point and its assigned cluster center—lower values indicate tighter, more cohesive clusters. To determine the optimal number of clusters (k), the elbow method is applied by plotting WSS against varying values of k. In the context of Capital Bikeshare station data, this helps identify the ideal number of spatial groupings based on station latitude and longitude. The "elbow" point—where WSS starts to decrease more slowly—suggests a balance between minimizing intra-cluster variance and avoiding overfitting with too many clusters. This method enables meaningful spatial segmentation of bike stations for better understanding and planning.
+
+### Quantitative Analysis
+
+![WSS](6315_A_2_1.jpg)  
+Figure 1. All location of bikeshare station origin
